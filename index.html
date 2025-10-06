@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Deadlock Prevention Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Deadlock Prevention Simulator</h1>
+</header>
+
+<section id="intro">
+  <p>Click buttons to add processes, request resources, and see deadlock prevention in action.</p>
+</section>
+
+<section id="controls">
+  <button onclick="addProcess()">Add Process</button>
+  <button onclick="addResource()">Add Resource</button>
+  <button onclick="requestResource()">Request Resource</button>
+  <button onclick="releaseResource()">Release Resource</button>
+  <button onclick="checkDeadlock()">Check Deadlock</button>
+</section>
+
+<section id="simulation">
+  <h2>Processes and Resources</h2>
+  <div id="process-container"></div>
+  <div id="resource-container"></div>
+</section>
+
+<section id="table">
+  <h2>Allocation Table</h2>
+  <div id="allocation-table"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

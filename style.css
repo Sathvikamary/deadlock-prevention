@@ -1,0 +1,68 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+button {
+  background-color: #1f1f1f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+#process-container, #resource-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.process, .resource {
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.process {
+  background-color: #2a2a2a;
+}
+
+.resource {
+  background-color: #444;
+}
+
+.allocated {
+  background-color: #4caf50 !important;
+}
+
+.waiting {
+  background-color: #fbc02d !important;
+}
+
+.deadlock {
+  background-color: #f44336 !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 5px;
+  text-align: center;
+}
